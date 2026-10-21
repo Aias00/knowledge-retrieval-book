@@ -6,7 +6,7 @@
   "lang": "zh-CN",
   "repository": "https://github.com/Aias00/knowledge-retrieval-book",
   "slug": "knowledge-retrieval-book",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-10-21",
   "description": "围绕可运行的SQLite FTS5与本地向量检索，连接文档解析、切分、混合召回、重排、引用、增量删除与ACL撤权。",
   "cover_lines": [

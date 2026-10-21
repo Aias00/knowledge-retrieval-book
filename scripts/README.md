@@ -47,8 +47,8 @@ GitHub Pages 应设置为 GitHub Actions。推送 `main` 中的书稿、实验�
 
 ```sh
 gh run download RUN_ID --name book-downloads --dir /tmp/knowledge-release
-gh release create v1.0.0 /tmp/knowledge-release/knowledge-retrieval-book.epub /tmp/knowledge-release/SHA256SUMS \
-  --title '企业知识库检索工程 v1.0.0' --notes-file /path/to/release-notes.md
+gh release create v1.0.1 /tmp/knowledge-release/knowledge-retrieval-book.epub /tmp/knowledge-release/SHA256SUMS \
+  --title '企业知识库检索工程 v1.0.1' --notes-file /path/to/release-notes.md
 ```
 
 后续其他书复用时，修改元数据、书稿、实验与该发布命令的文件名即可；不需要继承本书正文或来源清单。

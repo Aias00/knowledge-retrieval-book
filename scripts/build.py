@@ -304,7 +304,9 @@ def main():
     with zipfile.ZipFile(SITE / 'downloads/lab.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
         for path in lab_files():
             archive.write(path, path.relative_to(ROOT).as_posix())
-        for name in ['README.md', 'LICENSE']:
+        # lab/README.md is already included and versioned with lab/**. Root
+        # delivery documentation is not a product input or a rebuild trigger.
+        for name in ['LICENSE']:
             if (ROOT / name).exists():
                 archive.write(ROOT / name, name)
     source_links = ''
