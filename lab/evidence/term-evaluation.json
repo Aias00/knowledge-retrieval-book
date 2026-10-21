@@ -1,0 +1,531 @@
+{
+  "kind": "small_authored_retrieval_fixture_not_a_business_or_model_benchmark",
+  "python": "3.12.15",
+  "sqlite": "3.53.1",
+  "documents": 8,
+  "metadata": {
+    "encoder": "character/ASCII term counts, not semantic embedding"
+  },
+  "reports": [
+    {
+      "mode": "lexical",
+      "rerank": true,
+      "queries": 13,
+      "positive_queries": 10,
+      "recall_at_3": 0.9,
+      "mrr_at_3": 0.9,
+      "negative_queries": 3,
+      "negative_abstentions": 3,
+      "access_violations": 0,
+      "rows": [
+        {
+          "id": "q01",
+          "query": "住宿发票报销",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.277
+        },
+        {
+          "id": "q02",
+          "query": "差旅餐费上限",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.103
+        },
+        {
+          "id": "q03",
+          "query": "退款时间窗口",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund",
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.079
+        },
+        {
+          "id": "q04",
+          "query": "远程办公每周几天",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.09
+        },
+        {
+          "id": "q05",
+          "query": "设备保修服务时间",
+          "relevant": [
+            "support"
+          ],
+          "top3_documents": [
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.087
+        },
+        {
+          "id": "q06",
+          "query": "年假提前申请",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave",
+            "remote",
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 3,
+          "wall_ms": 0.083
+        },
+        {
+          "id": "q07",
+          "query": "旅馆住一夜能花多少钱",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.068
+        },
+        {
+          "id": "q08",
+          "query": "在家上班需要谁同意",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.098
+        },
+        {
+          "id": "q09",
+          "query": "带薪休息有多少天",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.085
+        },
+        {
+          "id": "q10",
+          "query": "商品不满意多久能退钱",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.101
+        },
+        {
+          "id": "q11",
+          "query": "SECRET-ACME-BOB",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.048
+        },
+        {
+          "id": "q12",
+          "query": "SECRET-BETA",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.04
+        },
+        {
+          "id": "q13",
+          "query": "zxqv-unrelated-token",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.042
+        }
+      ]
+    },
+    {
+      "mode": "vector",
+      "rerank": true,
+      "queries": 13,
+      "positive_queries": 10,
+      "recall_at_3": 0.9,
+      "mrr_at_3": 0.9,
+      "negative_queries": 3,
+      "negative_abstentions": 3,
+      "access_violations": 0,
+      "rows": [
+        {
+          "id": "q01",
+          "query": "住宿发票报销",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.092
+        },
+        {
+          "id": "q02",
+          "query": "差旅餐费上限",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.066
+        },
+        {
+          "id": "q03",
+          "query": "退款时间窗口",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund",
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.063
+        },
+        {
+          "id": "q04",
+          "query": "远程办公每周几天",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.061
+        },
+        {
+          "id": "q05",
+          "query": "设备保修服务时间",
+          "relevant": [
+            "support"
+          ],
+          "top3_documents": [
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.059
+        },
+        {
+          "id": "q06",
+          "query": "年假提前申请",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave",
+            "remote",
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 3,
+          "wall_ms": 0.062
+        },
+        {
+          "id": "q07",
+          "query": "旅馆住一夜能花多少钱",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.056
+        },
+        {
+          "id": "q08",
+          "query": "在家上班需要谁同意",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.059
+        },
+        {
+          "id": "q09",
+          "query": "带薪休息有多少天",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.057
+        },
+        {
+          "id": "q10",
+          "query": "商品不满意多久能退钱",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.058
+        },
+        {
+          "id": "q11",
+          "query": "SECRET-ACME-BOB",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.053
+        },
+        {
+          "id": "q12",
+          "query": "SECRET-BETA",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.052
+        },
+        {
+          "id": "q13",
+          "query": "zxqv-unrelated-token",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.052
+        }
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "rerank": true,
+      "queries": 13,
+      "positive_queries": 10,
+      "recall_at_3": 0.9,
+      "mrr_at_3": 0.9,
+      "negative_queries": 3,
+      "negative_abstentions": 3,
+      "access_violations": 0,
+      "rows": [
+        {
+          "id": "q01",
+          "query": "住宿发票报销",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.113
+        },
+        {
+          "id": "q02",
+          "query": "差旅餐费上限",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [
+            "travel"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.108
+        },
+        {
+          "id": "q03",
+          "query": "退款时间窗口",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund",
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 2,
+          "wall_ms": 0.101
+        },
+        {
+          "id": "q04",
+          "query": "远程办公每周几天",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.117
+        },
+        {
+          "id": "q05",
+          "query": "设备保修服务时间",
+          "relevant": [
+            "support"
+          ],
+          "top3_documents": [
+            "support"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.112
+        },
+        {
+          "id": "q06",
+          "query": "年假提前申请",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave",
+            "remote",
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 3,
+          "wall_ms": 0.105
+        },
+        {
+          "id": "q07",
+          "query": "旅馆住一夜能花多少钱",
+          "relevant": [
+            "travel"
+          ],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.092
+        },
+        {
+          "id": "q08",
+          "query": "在家上班需要谁同意",
+          "relevant": [
+            "remote"
+          ],
+          "top3_documents": [
+            "remote"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.118
+        },
+        {
+          "id": "q09",
+          "query": "带薪休息有多少天",
+          "relevant": [
+            "leave"
+          ],
+          "top3_documents": [
+            "leave"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.109
+        },
+        {
+          "id": "q10",
+          "query": "商品不满意多久能退钱",
+          "relevant": [
+            "refund"
+          ],
+          "top3_documents": [
+            "refund"
+          ],
+          "first_relevant_rank": 1,
+          "returned_chunks": 1,
+          "wall_ms": 0.124
+        },
+        {
+          "id": "q11",
+          "query": "SECRET-ACME-BOB",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.068
+        },
+        {
+          "id": "q12",
+          "query": "SECRET-BETA",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.063
+        },
+        {
+          "id": "q13",
+          "query": "zxqv-unrelated-token",
+          "relevant": [],
+          "top3_documents": [],
+          "first_relevant_rank": null,
+          "returned_chunks": 0,
+          "wall_ms": 0.065
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "single authored corpus; no independent heldout population",
+    "ONNX export is community quantization, not original full-precision weights",
+    "embedding similarity is not a calibrated relevance probability",
+    "CPU timings are local execution observations, not throughput benchmarks",
+    "ACL result filtering is tested; timing/statistical side channels are not audited"
+  ]
+}

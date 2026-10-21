@@ -1,0 +1,12 @@
+{
+  "version": "knowledge-fixture-v1",
+  "kind": "author-created Chinese retrieval and ACL examples, not business benchmark",
+  "documents": 8,
+  "queries": 13,
+  "positive_queries": 10,
+  "negative_queries": 3,
+  "sha256": {
+    "corpus.json": "e103bc584fd485a377ff31bbeb9fc6c08c71d9bfafaf81649c616234d608edbc",
+    "queries.json": "14f5e7a6f26248e30ed4483c30963551a7d10ad2e7ffacaf7edb84ada1dae6a8"
+  }
+}

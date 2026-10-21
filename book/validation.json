@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "experiment_tests": {
+    "core": 22,
+    "optional_real_onnx": 2,
+    "local_with_model": "24 passed, actual pinned quantized ONNX loaded",
+    "ci_without_model": "22 core tests, 2 explicitly skipped; see successful run in DELIVERY.md"
+  },
+  "publishing_checks": {
+    "source_mapping": "scripts/verify.py compares authored manuscript tokens with site and EPUB",
+    "epub_format": "EPUBCheck 5.4.0",
+    "browser": "all chapters at 320/390px; light default, dark, search, font, contents, no-JS, storage denied"
+  },
+  "not_validated": [
+    "production HTTP authentication",
+    "ANN scale or throughput",
+    "semantic entailment of arbitrary answers",
+    "shared FTS statistical/timing side channels",
+    "physical deletion or backup erasure",
+    "independent heldout business performance"
+  ],
+  "publication_evidence": "Exact successful CI, source commit, Pages/Release bytes and SHA256 in DELIVERY.md; it does not trigger a rebuild."
+}

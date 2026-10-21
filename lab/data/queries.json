@@ -1,0 +1,87 @@
+[
+  {
+    "id": "q01",
+    "query": "住宿发票报销",
+    "relevant": [
+      "travel"
+    ]
+  },
+  {
+    "id": "q02",
+    "query": "差旅餐费上限",
+    "relevant": [
+      "travel"
+    ]
+  },
+  {
+    "id": "q03",
+    "query": "退款时间窗口",
+    "relevant": [
+      "refund"
+    ]
+  },
+  {
+    "id": "q04",
+    "query": "远程办公每周几天",
+    "relevant": [
+      "remote"
+    ]
+  },
+  {
+    "id": "q05",
+    "query": "设备保修服务时间",
+    "relevant": [
+      "support"
+    ]
+  },
+  {
+    "id": "q06",
+    "query": "年假提前申请",
+    "relevant": [
+      "leave"
+    ]
+  },
+  {
+    "id": "q07",
+    "query": "旅馆住一夜能花多少钱",
+    "relevant": [
+      "travel"
+    ]
+  },
+  {
+    "id": "q08",
+    "query": "在家上班需要谁同意",
+    "relevant": [
+      "remote"
+    ]
+  },
+  {
+    "id": "q09",
+    "query": "带薪休息有多少天",
+    "relevant": [
+      "leave"
+    ]
+  },
+  {
+    "id": "q10",
+    "query": "商品不满意多久能退钱",
+    "relevant": [
+      "refund"
+    ]
+  },
+  {
+    "id": "q11",
+    "query": "SECRET-ACME-BOB",
+    "relevant": []
+  },
+  {
+    "id": "q12",
+    "query": "SECRET-BETA",
+    "relevant": []
+  },
+  {
+    "id": "q13",
+    "query": "zxqv-unrelated-token",
+    "relevant": []
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "kind": "real_sqlite_fts5_and_term_vectors_non_llm",
+  "initial_answer": {
+    "state": "extractive",
+    "non_llm": true,
+    "answer": "# 差旅费用标准\n\n## 住宿\n员工出差住宿每晚限额为500元，需提供酒店发票。\n\n## 餐费\n差旅餐费每日上限为80元。\n\n",
+    "evidence": [
+      {
+        "doc_id": "travel",
+        "revision": 1,
+        "start": 0,
+        "end": 63,
+        "sha256": "6c0b230598d5e8b3bf87b66874730c931bf32b7584dff3f0d1a4d6590885b808",
+        "quote": "# 差旅费用标准\n\n## 住宿\n员工出差住宿每晚限额为500元，需提供酒店发票。\n\n## 餐费\n差旅餐费每日上限为80元。\n\n"
+      }
+    ]
+  },
+  "version_update": {
+    "state": "indexed",
+    "revision": 2,
+    "chunks": 1,
+    "sha256": "e74729dbab7284e5e7d8a9f4e5aa18882154b79cd3b07e667fdafa27f0bf0f94"
+  },
+  "old_30_day_fact_retrievable": false,
+  "new_answer": {
+    "state": "extractive",
+    "non_llm": true,
+    "answer": "# 退款政策\n\n客户购买商品后14天内可申请退款，需保留订单编号和付款凭证。",
+    "evidence": [
+      {
+        "doc_id": "refund",
+        "revision": 2,
+        "start": 0,
+        "end": 38,
+        "sha256": "e74729dbab7284e5e7d8a9f4e5aa18882154b79cd3b07e667fdafa27f0bf0f94",
+        "quote": "# 退款政策\n\n客户购买商品后14天内可申请退款，需保留订单编号和付款凭证。"
+      }
+    ]
+  },
+  "stale_revision_citation_rejected": true,
+  "revoked_alice_citation_rejected": true,
+  "bob_access_preserved": true,
+  "deleted_citation_rejected": true,
+  "stale_replay_error": "stale_or_conflicting_revision",
+  "cross_tenant_and_private_results": [
+    0,
+    0,
+    0
+  ],
+  "limitations": [
+    "extractive answers, no LLM",
+    "term vectors are not semantic embeddings",
+    "deletion is a live-index visibility guarantee, not backup/physical erasure",
+    "revocation cannot recall information already delivered"
+  ]
+}

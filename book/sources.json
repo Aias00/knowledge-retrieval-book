@@ -1,0 +1,71 @@
+{
+  "accessed": "2026-10-21",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "SQLite FTS5 Extension",
+      "url": "https://www.sqlite.org/fts5.html",
+      "accessed": "2026-10-21",
+      "snapshot_sha256": "de3092630358518a6869bf047055b3938e18b476e3fbc54f4e2146d1e593497f",
+      "used_in_chapters": [
+        5,
+        7,
+        12
+      ],
+      "scope": "FTS5虚拟表、默认Unicode分词器、MATCH与BM25小值更好；不证明本书权限或业务效果",
+      "redistributed": false
+    },
+    {
+      "id": "S2",
+      "title": "SQLite Transaction",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "accessed": "2026-10-21",
+      "snapshot_sha256": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "used_in_chapters": [
+        9,
+        10
+      ],
+      "scope": "读快照、单写者、BEGIN IMMEDIATE与SQLITE_BUSY；非本书并发压测",
+      "redistributed": false
+    },
+    {
+      "id": "S3",
+      "title": "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods",
+      "url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+      "accessed": "2026-10-21",
+      "snapshot_sha256": "5c1f9f1fe0d80f67d82041bbe151ea17437bc7a7d9a920564cf122d1b09eafb5",
+      "used_in_chapters": [
+        7
+      ],
+      "scope": "RRF公式和论文k=60选择背景；不转移原论文效果或显著性",
+      "redistributed": false
+    },
+    {
+      "id": "S4",
+      "title": "BAAI/bge-small-zh-v1.5 model card at 7999e1d3359715c523056ef9478215996d62a620",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/7999e1d3359715c523056ef9478215996d62a620/README.md",
+      "accessed": "2026-10-21",
+      "snapshot_sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+      "used_in_chapters": [
+        6,
+        14
+      ],
+      "scope": "原模型身份、MIT声明、CLS/L2、查询指令与阈值范围；原始全精度模型未作为本书运行物",
+      "redistributed": false
+    },
+    {
+      "id": "S5",
+      "title": "Xenova/bge-small-zh-v1.5 ONNX export card at 75c43b069aac4d136ba6bc1122f995fedcfd2781",
+      "url": "https://huggingface.co/Xenova/bge-small-zh-v1.5/raw/75c43b069aac4d136ba6bc1122f995fedcfd2781/README.md",
+      "accessed": "2026-10-21",
+      "snapshot_sha256": "cb22054df1a98f7ee9d5b281d023e67c27cc316e1733baf03fc994d95c3048ab",
+      "used_in_chapters": [
+        6,
+        14
+      ],
+      "scope": "社区ONNX导出身份；本书实际使用量化导出，权重指纹另存实验报告",
+      "redistributed": false
+    }
+  ],
+  "policy": "First-party mechanism sources; authored fixture observations are separate evidence."
+}

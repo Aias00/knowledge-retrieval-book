@@ -1,0 +1,86 @@
+[
+  {
+    "tenant": "acme",
+    "doc_id": "travel",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "alice",
+      "bob"
+    ],
+    "source": "# 差旅费用标准\n\n## 住宿\n员工出差住宿每晚限额为500元，需提供酒店发票。\n\n## 餐费\n差旅餐费每日上限为80元。\n\n## 交通\n城市内交通凭有效票据报销。"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "refund",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "alice",
+      "bob"
+    ],
+    "source": "# 退款政策\n\n客户购买商品后30天内可申请退款，需保留订单编号和付款凭证。"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "remote",
+    "revision": 1,
+    "format": "json",
+    "acl": [
+      "alice",
+      "bob"
+    ],
+    "source": "{\"title\": \"远程办公申请\", \"sections\": [{\"heading\": \"审批流程\", \"text\": \"申请居家办公须部门负责人同意，每周最多2天。\"}]}"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "board",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "bob"
+    ],
+    "source": "# 并购谈判计划\n\n仅董事会及法务可阅，代号猎户座，预算为900000元。SECRET-ACME-BOB"
+  },
+  {
+    "tenant": "beta",
+    "doc_id": "travel",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "alice"
+    ],
+    "source": "# 乙公司差旅费用标准\n\n乙公司酒店每晚限额900元。SECRET-BETA"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "support",
+    "revision": 1,
+    "format": "json",
+    "acl": [
+      "*"
+    ],
+    "source": "{\"title\": \"售后服务\", \"sections\": [{\"heading\": \"保修\", \"text\": \"设备保修期间可携带购买凭证至服务中心，工作时间为周一至周五。\"}]}"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "leave",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "alice",
+      "bob"
+    ],
+    "source": "# 年假申请\n\n入职一年后员工有5天带薪年假，申请应提前3天提交。"
+  },
+  {
+    "tenant": "acme",
+    "doc_id": "health",
+    "revision": 1,
+    "format": "markdown",
+    "acl": [
+      "bob"
+    ],
+    "source": "# 健康福利\n\n管理层年度体检额度为1000元。仅指定人员可见。"
+  }
+]
